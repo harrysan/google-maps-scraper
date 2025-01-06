@@ -76,7 +76,7 @@ The CSV file will have the following format:
 | Location Name 1 | Location Address 1 | 4.5    | 120     | https://maps.google.com/... |
 | Location Name 2 | Location Address 2 | 4.0    | 85      | https://maps.google.com/... |
 
-![image](https://github.com/user-attachments/assets/c4d79a7a-2f91-4591-9413-31bc26890af3)
+![image](https://github.com/user-attachments/assets/7cbbd4a2-6e21-4b01-8a35-56373a1ffebd)
 
 ## Project Structure
 
