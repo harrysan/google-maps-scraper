@@ -15,6 +15,7 @@ def scraping(search_query):
     options.add_argument("--disable-gpu")
     options.add_argument('enable-logging')
     options.add_argument("start-maximized")
+    options.add_argument("--lang=en_EN")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
 
@@ -68,7 +69,7 @@ def scraping(search_query):
             'link': el.xpath('./a/@href').extract_first('')
         })
 
-    csv_file_path = search_query+'_data.csv'
+    csv_file_path = 'results/'+search_query+'_data.csv'
 
     # Check if the file exists and remove it before writing again
     if os.path.exists(csv_file_path):
